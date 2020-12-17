@@ -1,12 +1,7 @@
 Dataset Loading
 ===============
 
-|Build Status|
-
-.. |Build Status| image:: https://travis-ci.org/fbcotter/dataset_loading.png?branch=master
-    :target: https://travis-ci.org/fbcotter/dataset_loading
-
-**This is a fork of Fergal Cotter's `dataset_loading`, used as a dependency for the finn-examples repo.**
+**This is a fork of dataset_loading, used as a dependency for the finn-examples repo.**
 
 This repo is aimed at being a centralized resource for loading in commonly used
 image datasets like CIFAR, PASCAL VOC, MNIST, ImageNet and others.
