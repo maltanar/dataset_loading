@@ -31,7 +31,7 @@ classifiers = [
 ]
 
 setup(
-    name='dataset_loading',
+    name='finn_dataset_loading',
     version=get_version(),
     author="Fergal Cotter",
     author_email="fbc23@cam.ac.uk",
