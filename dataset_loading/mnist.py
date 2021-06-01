@@ -14,10 +14,10 @@ from dataset_loading import core, utils
 from dataset_loading.utils import md5, download
 import gzip
 
-TRAINX_URL = 'http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz'
-TRAINY_URL = 'http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz'
-TESTX_URL = 'http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz'
-TESTY_URL = 'http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz'
+TRAINX_URL = 'https://raw.githubusercontent.com/fgnt/mnist/master/train-images-idx3-ubyte.gz'
+TRAINY_URL = 'https://raw.githubusercontent.com/fgnt/mnist/master/train-labels-idx1-ubyte.gz'
+TESTX_URL = 'https://raw.githubusercontent.com/fgnt/mnist/master/t10k-images-idx3-ubyte.gz'
+TESTY_URL = 'https://raw.githubusercontent.com/fgnt/mnist/master/t10k-labels-idx1-ubyte.gz'
 
 TRAINX_MD5 = 'f68b3c2dcbeaaa9fbdd348bbdeb94873'
 TRAINY_MD5 = 'd53e105ee54ea40749a09fcbcd1e9432'
